@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <title>Vacation Rentals</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#Destinations">Destination</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="#Locations">Locations</a></li>
+                <li><a href="#Testimonials">Testimonials</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="Destinations">
+    <div id="myCarousel" class="carousel slide" style="margin-top: 50px;" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/scroll1.jpg" alt="Chania">
+            </div>
+
+            <div class="item">
+                <img src="img/scroll2.jpg" alt="Chania">
+            </div>
+
+            <div class="item">
+                <img src="img/scroll3.jpg" alt="Flower">
+            </div>
+
+            <div class="item">
+                <img src="img/scroll4.jpg" alt="Flower">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<div class="jumbotron text-center">
+    <div class="container-fluid">
+        <h1>Destination Travel</h1>
+        <p>Traveler housing done right.</p>
+        <p>
+            unc cursus congue ante, et congue elit cursus at. Nulla consectetur sapien malesuada enim fermentum mattis.
+            Aliquam tempor lorem a lorem aliquet rutrum. Nulla semper neque et faucibus vulputate.
+            Pellentesque tellus ante, ultrices nec eros a, congue lobortis dui.
+            Ut augue nibh, sodales non elit sit amet, laoreet varius orci.
+        </p>
+    </div>
+</div>
+
+<div data-spy="scroll" data-target=".navbar" data-offset="12" class="test">
+    <div id="Testimonials">
+        <div class="jumbotron text-center">
+            <h1>Testimonials</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur,
+                libero vehicula lobortis suscipit, lorem est imperdiet mauris, ac pulvinar leo urna et erat. Mauris lobortis,
+                justo sed posuere tempor, arcu metus rhoncus urna, at porta ligula magna vitae velit. Phasellus quis pulvinar dui,
+                vel suscipit tortor. Fusce nisi felis, feugiat id dignissim sed, hendrerit et eros. Sed quis mi vulputate,
+                fringilla ipsum vel, accumsan eros. Aliquam ac elit id tellus auctor iaculis. Vestibulum vel sollicitudin eros.
+                Morbi vitae faucibus orci.
+            </p>
+        </div>
+    </div>
+</div>
+    <div id="Locations">
+        <div class="container-fluid">
+            <h1 class="text-center">Locations</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img id="image1" src="img/hawaii.jpg">
+                        <img id= "image2" src="img/hawaii2.jpg">
+                        <div class="caption">
+                            <h3>Hawaii</h3>
+                            <p>The view from our Hawaii location</p>
+                            <div class="btn-group" role="group">
+                            <button type="button" id="origHawaii" class="btn btn-default active"><span class="fa fa-motorcycle"></span></button>
+                            <button type="button" id="altHawaii" class="btn btn-default"><span class="fa fa-binoculars"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img id= "image3" src="img/paris.jpg">
+                        <img id= "image4" src="img/paris2.jpg">
+                        <div class="caption">
+                            <h3>Paris</h3>
+                            <p>The view from our Paris location</p>
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" id="origParis" class="btn btn-default active"><span class="fa fa-motorcycle"></span></button>
+                                <button type="button" id="altParis" class="btn btn-default"><span class="fa fa-binoculars"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img id= "image5" src="img/tokyo.jpg">
+                        <img id= "image6" src="img/tokyo2.jpg">
+                        <div class="caption">
+                            <h3>Tokyo</h3>
+                            <p>The view from our Tokyo location</p>
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" id="origTokyo" class="btn btn-default active"><span class="fa fa-motorcycle"></span></button>
+                                <button type="button" id="altTokyo" class="btn btn-default"><span class="fa fa-binoculars"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="AboutUs">
+        <div class="jumbotron text-center">
+            <h1>About Us</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur,
+                libero vehicula lobortis suscipit, lorem est imperdiet mauris, ac pulvinar leo urna et erat. Mauris lobortis,
+                justo sed posuere tempor, arcu metus rhoncus urna, at porta ligula magna vitae velit. Phasellus quis pulvinar dui,
+                vel suscipit tortor. Fusce nisi felis, feugiat id dignissim sed, hendrerit et eros. Sed quis mi vulputate,
+                fringilla ipsum vel, accumsan eros. Aliquam ac elit id tellus auctor iaculis. Vestibulum vel sollicitudin eros.
+                Morbi vitae faucibus orci.</p>
+        </div>
+    </div>
+    <div id="ContactUs" class="col-md-6 col-md-offset-3">
+        <div class="container-fluid">
+            <h1>Contact Us</h1>
+                <p>We'd be happy to answer any questions you have. Please fill out this form and we'll get back to you as soon as possible.</p>
+                <form role="form" id="contact">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+
+                    <p>Your favorite of our travel destinations</p>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" class='places' value="hawaii">Hawaii</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" class='places' value="paris">Paris</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" class='places' value="tokyo">Tokyo</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Your Message</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button class="btn btn-info" id="formSubmit" type="submit">Submit</button>
+                </form>
+        </div>
+    <div class="col-md-3"></div>
+</div>
+    </div>
+
+
+</body>
+<section  class="text-center">
+    <div class="container-fluid">
+        <div id="bottom" >
+    <div class="col-sm-4 col-md-4">
+        <h3>
+            ABOUT COMPANY
+        </h3>
+        <p>
+            Nunc cursus congue ante, et congue elit cursus at. Nulla consectetur sapien malesuada enim fermentum mattis.
+            Aliquam tempor lorem a lorem aliquet rutrum. Nulla semper neque et faucibus vulputate.
+        </p>
+    </div>
+    <div class="col-sm-4 col-md-4">
+        <h3>
+            SOCIAL LINKS
+        </h3>
+        <p>
+
+        </p>
+            <div id="socialMedia" class="text-center">
+                <span class="fa fa-instagram fa-3x"></span>
+                <span class="fa fa-twitter fa-3x"></span>
+                <span class="fa fa-facebook-square fa-3x"></span>
+                <p></p>
+            </div>
+        <p>
+        </p>
+    </div>
+    <div class="col-sm-4 col-md-4">
+        <h3>
+            LOCATION
+        </h3>
+        <p>
+            Nunc cursus congue ante, et congue elit cursus at. Nulla consectetur sapien malesuada enim fermentum mattis.
+            Aliquam tempor lorem a lorem aliquet rutrum. Nulla semper neque et faucibus vulputate.
+        </p>
+    </div>
+        </div>
+    </div>
+
+</section>
+</html>
+
