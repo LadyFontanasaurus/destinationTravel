@@ -38,7 +38,7 @@ $(function() {
     $('#origParis').click(function () {
         $("#image4").hide();
         $("#image3").show();
-        $('#origParis').toggleClass('active')
+        $('#origParis').toggleClass('active');
     });
 
     $('#altTokyo').click(function () {
@@ -51,7 +51,7 @@ $(function() {
     $('#origToyko').click(function () {
         $("#image6").hide();
         $("#image5").show();
-        $('#origTokyo').toggleClass('active')
+        $('#origTokyo').toggleClass('active');
     });
 
 
