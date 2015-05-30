@@ -48,7 +48,7 @@ $(function() {
 
     });
 
-    $('#origToyko').click(function () {
+    $('#origTokyo').click(function () {
         $("#image6").hide();
         $("#image5").show();
         $('#origTokyo').toggleClass('active');
