@@ -3,14 +3,9 @@
  */
 $(function() {
 
-    var $primaryToAtl = $('.btn-default');
-    var $altToPrimary = $('.btn-primary');
     var $submitButton = $(':submit');
-
     var name, email, message, favoritePlace;
 
-    //submit and save information
-    //hide form
     $("#image2").hide();
     $("#image4").hide();
     $("#image6").hide();
@@ -66,26 +61,10 @@ $(function() {
         console.log(favoritePlace);
         message = $('#comment').val();
         console.log(message);
-
+        $('#fullName').append("Full Name : " + name).html();
     });
     $('#formSubmit').click(function () {
         $('#ContactUs').hide(1000);
     });
-/*
-    /*
-    not sure how to do this
 
-
-
-    $primaryToAtl.on('click', function () {
-
-    });
-
-    $altToPrimary.on('click', function () {
-
-        var origHTML = '<img src="img/hawaii.jpg" alt="image2.jpg">';
-        \
-
-    });
-    */
 });
