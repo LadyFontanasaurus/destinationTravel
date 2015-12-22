@@ -1,9 +1,9 @@
 @font-face {
-	font-family: Pacifico;
+	font-family: 'Pacifico';
 	src: url('../fonts/Pacifico.ttf');
 }
 @font-face {
-	font-family: Raleway;
+	font-family: 'Raleway';
 	src: url('../fonts/Raleway-Regular.ttf');
 }
 body{
