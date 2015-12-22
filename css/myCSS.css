@@ -1,5 +1,16 @@
+<<<<<<< Updated upstream
 @import url('http://fonts.googleapis.com/css?family=Pacifico');
 @import url('http://fonts.googleapis.com/css?family=Raleway');
+=======
+@font-face {
+	font-family: Pacifico;
+	src: url('../fonts/Pacifico.ttf');
+}
+@font-face {
+	font-family: Raleway;
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+>>>>>>> Stashed changes
 
 body{
     font-family: 'Raleway', sans-serif;
